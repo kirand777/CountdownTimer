@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		DCAB6FE12C090A8700824B51 /* CountdownTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB6FE02C090A8700824B51 /* CountdownTimerApp.swift */; };
-		DCAB6FE32C090A8700824B51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB6FE22C090A8700824B51 /* ContentView.swift */; };
+		DCAB6FE32C090A8700824B51 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB6FE22C090A8700824B51 /* CountdownView.swift */; };
 		DCAB6FE52C090A8800824B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAB6FE42C090A8800824B51 /* Assets.xcassets */; };
 		DCAB6FE92C090A8800824B51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAB6FE82C090A8800824B51 /* Preview Assets.xcassets */; };
+		DCAB6FF02C090ADA00824B51 /* CountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB6FEF2C090ADA00824B51 /* CountdownViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DCAB6FDD2C090A8700824B51 /* CountdownTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountdownTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAB6FE02C090A8700824B51 /* CountdownTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimerApp.swift; sourceTree = "<group>"; };
-		DCAB6FE22C090A8700824B51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCAB6FE22C090A8700824B51 /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
 		DCAB6FE42C090A8800824B51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCAB6FE62C090A8800824B51 /* CountdownTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CountdownTimer.entitlements; sourceTree = "<group>"; };
 		DCAB6FE82C090A8800824B51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCAB6FEF2C090ADA00824B51 /* CountdownViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				DCAB6FE02C090A8700824B51 /* CountdownTimerApp.swift */,
-				DCAB6FE22C090A8700824B51 /* ContentView.swift */,
+				DCAB6FE22C090A8700824B51 /* CountdownView.swift */,
+				DCAB6FEF2C090ADA00824B51 /* CountdownViewModel.swift */,
 				DCAB6FE42C090A8800824B51 /* Assets.xcassets */,
 				DCAB6FE62C090A8800824B51 /* CountdownTimer.entitlements */,
 				DCAB6FE72C090A8800824B51 /* Preview Content */,
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCAB6FE32C090A8700824B51 /* ContentView.swift in Sources */,
+				DCAB6FE32C090A8700824B51 /* CountdownView.swift in Sources */,
+				DCAB6FF02C090ADA00824B51 /* CountdownViewModel.swift in Sources */,
 				DCAB6FE12C090A8700824B51 /* CountdownTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
